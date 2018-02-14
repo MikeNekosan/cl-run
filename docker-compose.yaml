@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+ cl-run:
+  build: 
+   context: .
+  image: cl-run
+  container_name: cl-run
+  tty: true
+  volumes: 
+     - /docker/cl:/cl
+  security_opt:
+     - seccomp:unconfined
+  hostname: cl-run
