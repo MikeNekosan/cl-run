@@ -9,4 +9,8 @@ and then<br>
 docker-compose build<br>
 docker-compose up -d<br>
 docker-compose exec cl-run bash<br>
+<br>
+clean docker images<br>
+<br>
+./docker-images-delete.sh<br>
 
